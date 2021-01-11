@@ -83,6 +83,7 @@ public class AttendanceUploadController implements Serializable {
     }
 
     public void setHumanResourceBean(HumanResourceBean humanResourceBean) {
+        System.out.println("123");
         this.humanResourceBean = humanResourceBean;
     }
 
